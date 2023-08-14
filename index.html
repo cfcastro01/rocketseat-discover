@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<!-- Utilize id quando você quiser identificar apenas um elemento no html e utilize class quando quiser se referir a mais de um elemento. Neste caso a classe light vai mudar vários elementos no light mode do site -->
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevLinks</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="profile">
+      <img src="./assets/avatar.png" alt="Foto do Mayk Brito sorrindo usando camisa preta, óculos, barba em fundo amarelo" />
+      <p>@maykbrito</p>
+    </div>
+
+    <div id="switch" onclick="togglemode()">
+      <button></button>
+      <span></span>
+      <!-- A tag <span>  possui a finalidade de agrupar um texto e até mesmo apresentar um conteúdo visual. O <span> é bastante parecido com o elemento <div>. A diferença entre essas tags é que <div> faz o agrupamento dos elementos a nível de bloco enquanto o <span> faz o agrupamento a nível de linha. -->
+
+    </div>
+
+    <ul id="links">
+      <li>
+        <a href="#">Inscrever-se no NLW</a>
+      </li>
+
+      <li>
+        <a href="#">Baixar meu e-book</a>
+      </li>
+
+      <li>
+        <a href="https://github.com/maykbrito" target="_blank">Baixar meu portfólio</a < !-- atributo target="_blank" abre link em outra aba -->
+      </li>
+
+      <li>
+        <a href="https://rocketseat.com.br/explorer" target="_blank">Conheça o Explorer</a>
+      </li>
+    </ul>
+    <div id="social-links">
+      <a href="https:github.com/maykbrito" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+
+      <a href="https:instagram.com/maykbrito" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+
+      <a href="https:youtube.com/maykbrito" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+      </a>
+
+      <a href="https:linked.com/in/maykbrito" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </div>
+    <footer>
+      Feito com ♥ pela <a href="htteps://rocketseat.com.br/">Rocketseat</a>
+    </footer>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script src="./script.js"></script>
+
+  <!-- Git é o controle/histórico de versão; Repository é o local onde ficará o histórico; Branch é a linha do tempo e Branch Main a linha princial; Commit são os pontos na linha do tempo; Stage Área é a preparação para enviar pro Commit -->
+
+  <!-- Comandos:
+    inicia o git (repositório) no seu projeto
+      git init 
+
+    adiciona todos os arquivos modificados, ao stage
+      git add . 
+
+    cria e descreve um ponto na história
+      git commit -m "message here" 
+
+    envia alterações para o repositório remoto
+      git push
+  -->
+
+</body>
+
+</html>
