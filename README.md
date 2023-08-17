@@ -1,2 +1,1 @@
 # rocketseat-discovery
-# rocketseat-discovery
